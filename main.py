@@ -278,6 +278,6 @@ async def introduction(ctx):
   hola.add_field(name="‌", value="Type %help To Get Started", inline=False)
   await ctx.channel.send(embed=hola)
 
-Token = ("ODk4ODc5NDU0MDc4NzI2MTQ0.YWqoug.SFTkgia1cmHDzrV3IjzOh5IqMLU")
+Token = ("Your Application's Token")
 keep_alive()
 client.run(Token, reconnect=True)
